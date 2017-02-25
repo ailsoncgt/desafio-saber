@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Projeto Saber - Poemas de Amor</title>
+
+		<link rel="icon" href="img/teste_estagio_saber.png" type="img">
+
+		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+		<!-- ANIMATE -->
+		<link rel="stylesheet" href="css/animate.css">
+		<!-- APP -->
+		<link rel="stylesheet" href="css/app.css">
+		<link rel="stylesheet" href="css/media-queries.css">
+		
+		<!-- jquery -->
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>		
+
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- APP -->
+		<script type="text/javascript" src="js/app.js"></script>
+
+	</head>
+	<body>
+	<div id="navbar-top">
+		<div class="container">
+			<div class="navbar-right">
+				<span>Olá Maria!</span>
+				<a href="#">
+					<img src="img/teste_estagio_voltar_ava.png"  id="voltar" alt="VOLTAR">
+				</a>
+
+				<a href="#">
+					<img src="img/teste_estagio_fechar.png"  id="fechar" alt="FECHAR">
+				</a>
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-saber">
+		<div class="container">
+			<div class="navbar-left">
+				<a href="#">
+					<img src="img/teste_estagio_menu.png" id="menu" alt="MENU">	
+				</a>	
+			</div>
+			
+			<div id="logo">
+  				<img src="img/teste_estagio_poema_de_amor.png" alt="LOGO" class="img-responsive animated pulse">
+  			</div>	
+		</div>
+  		
+	</nav>
+	<!-- End navbar -->
+	<div id="body-container">
+		<div class="container">
+			<h4>Escolha a unidade didática que você deseja vizualizar</h4>
+			<p>Inicie o curso clicando nos tópicos que compõe as unidades didáticas e logo em seguida nos subtópicos que deseja acessar. Para ver as páginas que você salvou, clique em "página salva" que fica do lado do nome do tópico ou subtópico.</p>
+			
+			<div id="img_se">
+				<img src="img/teste_estagio_livro_verde.png" alt="LIVRO VERDE" id="livro-verde">
+				<span class="green"></span>
+			</div>
+			
+
+			<div id="list-accordion" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading1">
+						<div class="number">
+							01
+						</div>
+						<div class="panel-title">
+							<a data-toggle="collapse" data-parent="#list-accordion" href="#unidade1" aria-expanded="true" aria-controls="unidade1">
+								Nome da unidade
+							</a>
+							<div class="pull-right">
+								<a href="#">
+									<img src="img/teste_estagio_check_branco.png" alt="Check">
+								</a>
+								<a href="#">
+									<img src="img/teste_estagio_reiniciar_branco.png" alt="Reload">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div id="unidade1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+						<div class="panel-body">
+							<a class="title_panel-body" data-toggle="collapse" data-parent="#accordion" href="#collapseTitle1" aria-expanded="true" aria-controls="collapseTitle1">
+								<img src="img/teste_estagio_seta_para_baixo.png" alt="SETA BAIXO">
+								Todos as descrições das pessoas são sobre a humanidade do atendimento?
+							</a>
+								<ul class="sub-menu" id="collapseTitle1">
+									<li>
+										Título 1.1
+										<div class="comments">
+											<h6>05</h6>
+											<p>Comentários</p>
+										</div>
+										<div class="seen">
+											<div class="pull-right">
+												<div class="text">
+													<h6>Visualizada</h6>
+													<p>em 18/02/2017</p>
+												</div>
+												<img src="img/teste_estagio_check_verde.png" alt="Check verde" class="check_verde">
+											</div>
+										</div>
+									</li>
+									<li>
+										<a href="#" class="seta-sub-menu">
+											<img src="img/teste_estagio_seta_para_baixo.png" alt="Seta baixo">	
+										</a>
+										
+										Título 1.2
+										<div class="comments">
+											<h6>09</h6>
+											<p>Comentários</p>
+										</div>
+										<div class="seen">
+											<div class="pull-right">
+												<div class="text">
+													<h6>Visualizada</h6>
+													<p>em 18/02/2017</p>
+												</div>
+												<img src="img/teste_estagio_check_verde.png" alt="Check verde" class="check_verde">
+											</div>
+										</div>
+										<li class="sub-menu-2">
+											Título 1.2.1
+											<div class="comments">
+												<h6>03</h6>
+												<p>Comentários</p>
+											</div>
+											<div class="seen">
+												<div class="pull-right">
+													<div class="text">
+														<h6>Página salva</h6>
+														<p> salvo em 18/02/2017</p>
+													</div>
+													<img src="img/teste_estagio_estrela_laranja.png" alt="Estrela laranja" class="check_verde">
+												</div>
+											</div>
+										</li>
+										<li class="sub-menu-2">
+											Título 1.2.2
+											<div class="comments">
+												<h6>10</h6>
+												<p>Comentários</p>
+											</div>
+										</li>
+									</li>
+								</ul>
+							<a class="title_panel-body" data-toggle="collapse" data-parent="#accordion" href="#collapseTitle2" aria-expanded="true" aria-controls="collapseTitle2">
+								<img src="img/teste_estagio_seta_para_baixo.png" alt="Seta Direita">
+								Título 2
+								<ul>
+									<li></li>
+								</ul>
+							</a>
+							<a class="title_panel-body" data-toggle="collapse" data-parent="#accordion" href="#collapseTitle3" aria-expanded="true" aria-controls="collapseTitle3">
+								<img src="img/teste_estagio_seta_para_baixo.png" alt="Seta Direita">
+								Título 3
+								<!--<ul>
+									<li></li>
+								</ul>-->
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- END panel -->
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading2">
+						<div class="number">
+							02
+						</div>
+						<div class="panel-title">
+							<a data-toggle="collapse" data-parent="#list-accordion" href="#unidade2" aria-expanded="true" aria-controls="unidade2">
+								Nome da unidade
+							</a>
+							<div class="pull-right">
+								<a href="#">
+									<img src="img/teste_estagio_seta_branca.png" alt="Seta branca">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END panel -->
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading2">
+						<div class="number">
+							03
+						</div>
+						<div class="panel-title">
+							<a data-toggle="collapse" data-parent="#list-accordion" href="#unidade3" aria-expanded="true" aria-controls="unidade3">
+								Nome da unidade
+							</a>
+							<div class="pull-right">
+								<a href="#">
+									<img src="img/teste_estagio_seta_branca.png" alt="Seta branca">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END panel -->
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading1">
+						<div class="number">
+							04
+						</div>
+						<div class="panel-title">
+							<a data-toggle="collapse" data-parent="#list-accordion" href="#unidade2" aria-expanded="true" aria-controls="unidade2">
+								Nome da unidade
+							</a>
+							<div class="pull-right">
+								<a href="#">
+									<img src="img/teste_estagio_check_branco.png" alt="Check">
+								</a>
+								<a href="#">
+									<img src="img/teste_estagio_reiniciar_branco.png" alt="Reload">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END panel -->
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading2">
+						<div class="number">
+							05
+						</div>
+						<div class="panel-title">
+							<a data-toggle="collapse" data-parent="#list-accordion" href="#unidade5" aria-expanded="true" aria-controls="unidade5">
+								Nome da unidade
+							</a>
+							<div class="pull-right">
+								<a href="#">
+									<img src="img/teste_estagio_seta_branca.png" alt="Seta branca">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END panel -->
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading2">
+						<div class="number">
+							06
+						</div>
+						<div class="panel-title">
+							<a data-toggle="collapse" data-parent="#list-accordion" href="#unidade6" aria-expanded="true" aria-controls="unidade6">
+								Nome da unidade
+							</a>
+							<div class="pull-right">
+								<a href="#">
+									<img src="img/teste_estagio_seta_branca.png" alt="Seta branca">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END panel -->
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading1">
+						<div class="number">
+							07
+						</div>
+						<div class="panel-title">
+							<a data-toggle="collapse" data-parent="#list-accordion" href="#unidade7" aria-expanded="true" aria-controls="unidade7">
+								Nome da unidade
+							</a>
+							<div class="pull-right">
+								<a href="#">
+									<img src="img/teste_estagio_check_branco.png" alt="Check">
+								</a>
+								<a href="#">
+									<img src="img/teste_estagio_reiniciar_branco.png" alt="Reload">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END panel -->
+				<div class="panel panel-default">
+					<div class="panel-heading txt_" role="tab" id="heading2">
+						<div class="number">
+							08
+						</div>
+						<div class="panel-title">
+							<a data-toggle="collapse" data-parent="#list-accordion" href="#unidade8" aria-expanded="true" aria-controls="unidade8">
+								Bloco para nome de unidade, dependendo da quantidade de texto , o bloco se alarga e o texto ficará com alinhamento esquerdo/superior
+							</a>
+							<div class="pull-right">
+								<img src="img/teste_estagio_seta_branca.png" alt="Seta branca">
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END panel -->
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading2">
+						<div class="number">
+							10
+						</div>
+						<div class="panel-title">
+							<a data-toggle="collapse" data-parent="#list-accordion" href="#unidade10" aria-expanded="true" aria-controls="unidade10">
+								Nome da unidade
+							</a>
+							<div class="pull-right">
+								<a href="#">
+									<img src="img/teste_estagio_seta_branca.png" alt="Seta branca">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END panel -->
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading2">
+						<div class="number">
+							10
+						</div>
+						<div class="panel-title">
+							<a data-toggle="collapse" data-parent="#list-accordion" href="#unidade10" aria-expanded="true" aria-controls="unidade10">
+								Nome da unidade
+							</a>
+							<div class="pull-right">
+								<a href="#">
+									<img src="img/teste_estagio_seta_branca.png" alt="Seta branca">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="footer_know">
+		<div class="cotainer">
+			<div id="logos" class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-2 col-sm-2">
+					<img src="img/teste_estagio_ufpe.png" alt="UFPE">
+				</div>
+				<div class="col-md-2 col-sm-2">
+					<img src="img/teste_estagio_saber.png" alt="SABER" style="margin-top: 8px">
+				</div>
+				<div class="col-md-2 col-sm-2">
+					<img src="img/teste_estagio_unasus.png" alt="UNASUS" style="margin-top: 10px">
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+		</div>
+		
+	</footer>
+
+	</body>
+</html>

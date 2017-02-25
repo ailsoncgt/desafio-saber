@@ -1,0 +1,365 @@
+*{
+	box-sizing: border-box !important;
+	/*font-family: 'Roboto' !important;*/
+}
+
+html, body{
+	background-color: #f0f0f0;
+}
+
+li{
+	list-style: none;
+}
+
+.navbar{
+	background-image: none !important;
+}
+
+#navbar-top{
+	height: 40px;
+	background-color: #333132;
+	color: white;
+}
+
+#navbar-top #fechar{
+	margin-top: 5.5px;
+}
+
+#navbar-top #voltar{
+	margin-top: 4.5px;
+}
+
+#navbar-top span{
+	font-weight: bold;
+	margin-right: 5px;
+	vertical-align: -webkit-baseline-middle;
+}
+
+.navbar-saber{
+	background-color: #006064;
+	border-radius: 0;
+	height: 80px;
+}
+
+.navbar-saber .navbar-left{
+	display: inline-block;
+}
+
+.container #menu{
+	margin-top: 25px;
+	display: inline-block;
+}
+
+#logo{
+	padding: 11px;
+}
+
+#logo > img{
+	margin: 0 auto;
+	max-width: 80%;
+}
+
+/*===== END NAVBAR =======*/
+#body-container{
+	background: url('../img/teste_estagio_passaros.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	margin-bottom: 50px;
+	/*overflow: hidden;*/
+}
+
+#body-container h4{
+	font-weight: bold;
+}
+
+#list-accordion{
+	max-width: 531px;
+	margin-left: 25px;
+}
+
+#livro-verde{
+	margin-top: 2em;
+}
+
+#img_se{
+	position: relative;
+	margin-bottom: 13px;
+}
+
+.green{
+	position: absolute;
+    width: 4px;
+    height: 15px;
+    background-color: #006064;
+    bottom: -13px;
+    left: 25px;
+}
+
+#list-accordion .panel, #list-accordion .panel-default{
+	border-radius: 0px !important;
+	border: 0;
+	margin-bottom: 5px;
+}
+
+.panel-heading{
+	background: #006064 !important;
+	border: 0px !important; 
+	border-radius: 0;
+	position: relative;
+	height: 38px;
+}
+
+#heading2{
+	background: #068e94 !important;
+	border-color: #068e94 !important;
+	color: #068e94 !important;
+}
+
+#heading2 .number{
+	border-color: #068e94 !important;
+	color: #068e94 !important;
+}
+
+.panel-title a{
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	margin-left: 15px;
+}
+
+.panel-title a:hover, .panel-title a:focus{
+	text-decoration: none;
+}
+
+#list-accordion .panel-body{
+	background: #d9fdff !important;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#list-accordion .number{
+	border-radius: 50%;
+	height: 38px;
+	width: 38px;
+	border: 4px solid #006064;
+	background: white;
+	position: absolute;
+	left: -17px;
+    top: 0px;
+    padding: 4px;
+    font-size: 18px;
+    color: #006064;
+}
+
+.title_panel-body img{
+	margin-right: 10px;
+}
+
+.title_panel-body{
+	color: black;
+	font-weight: bold;
+	font-size: 13px;
+	display: block;
+	cursor: pointer;
+	margin-left: 15px;
+}
+
+.title_panel-body:hover, .title_panel-body:focus{
+	text-decoration: none;
+	color: black;
+}
+
+#list-accordion .pull-right{
+	margin-top: -4px;
+}
+
+.sub-menu{
+	margin-top: 5px;
+	padding-left: 0;
+	/*background: white;*/
+}
+
+.sub-menu li{
+	background: white;
+	border: 1px solid #ddd;
+	border-bottom: 0;
+	border-right: 0;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 50px;
+	position: relative;
+}
+
+.sub-menu-2{
+	padding-left: 80px !important;
+}
+
+.seta-sub-menu{
+	position: absolute;
+	left: 15px;
+}
+
+.comments{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50px;
+	background: #ddd;
+	height: 27px;
+	text-align: center;
+}
+
+.comments h6, .text h6{
+	color: #999;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 3px !important;
+	margin-bottom: 0px !important;
+	font-size: 11px;
+}
+
+.text{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.comments p, .text p{
+	font-size: 7px;
+	text-align: center;
+	color: #999;
+	font-weight: 600;	
+}
+
+.seen{
+	position: absolute;
+	right: 65px;
+	top: 3px;
+}
+
+.check_verde{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.txt_{
+	height: auto;
+}
+
+.txt_ a{
+	display: inline-block;
+	max-width: 366px;
+}
+
+/*======= END OF BODY =========*/
+#footer_know{
+	position: relative;
+	background: #333132;
+}
+
+#logos{
+	margin-right: 0;
+    padding: 19.5px;
+}
+
+
+/*========= PAGE 2 =========*/
+#body-container_pg_2{
+	background: none;
+}
+
+#body-container_pg_2 h3{
+	color: #006064;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.col-md-10-saber{
+	max-width: 740px;
+}
+
+#atention{
+	margin-top: -9px;
+}
+
+.title{
+	color: white;
+	font-size: 22px;
+}
+
+._pg2{
+	border-radius: 0;
+	border: 2px solid #006064 !important;
+}
+
+#pages{
+	text-align: center;
+	font-size: 28px;
+	position: relative;
+	color: #333132;
+}
+
+#pages #stack{
+	margin-right: 15px;
+	margin-left: 5px;
+	width: 1px;
+	height: 20px;
+	background: #333132;
+	/*position: absolute;*/
+	bottom: 0;
+}
+
+#pages a{
+	color: #333132;
+}
+
+#pages a:hover, #pages a:focus{
+	text-decoration: none;
+	color: #333132;
+}
+
+.col-md-2-saber{
+	max-width: 320px;
+}
+
+._d1 h2{
+	margin-bottom: 0;
+	text-align: center;
+	font-size: 32px;
+	color: #333132;
+}
+
+._d1 p{
+	margin-top: 0px;
+	text-align: center;
+	color: #333132;
+}
+
+.list{
+	border: 1px solid #f0f0f0;
+}
+
+.item{
+	border-right: 1px solid #f0f0f0;
+	width: 92.006px;
+	display: inline-block;
+	text-align: center;
+}
+
+#last_{
+	border-right: 0px !important;
+}
+
+.item p{
+	font-size: 9px;
+}
+
+#pn_2{
+	padding: 0 !important;
+}
+
+.t_t h4{
+	display: inline-block;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
