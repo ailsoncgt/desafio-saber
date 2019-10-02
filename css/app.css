@@ -363,3 +363,6 @@ li{
     margin-bottom: 0;
     margin-left: 10px;
 }
+#logos > div:hover{
+	cursor: pointer;
+}
